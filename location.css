@@ -1,0 +1,50 @@
+*{
+    text-decoration: none;
+    color: #222B45;
+}
+
+.Navigation__Container {
+    height: 84px;
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFF;
+}
+
+.Logo {
+    height: 84px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.Logo__name {
+    font-size: 40px;
+    position: relative;
+}
+
+.Logo_Image {
+    position: absolute;
+    top: 10px;
+    left: 482px;
+}
+
+.navigation {
+    height: 84px;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.navigation a {
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #222B45;
+    margin-left: 50px;
+}
+
+.navigation a:hover {
+    font-weight: 600;
+}
+

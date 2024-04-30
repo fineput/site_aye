@@ -1,0 +1,117 @@
+h1{
+    font-size: 40px;
+    color: #222B45;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #222B45;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.table_container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    font-size: 26px;
+    color: #222B45;
+    font-family: Montserrat, sans-serif;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+}
+th {
+    border-bottom: 1px solid #ddd;
+}
+td {
+    font-size: 24px;
+    border-right: 1px solid #ddd;
+}
+
+input[type="text"], textarea {
+    width: calc(100% - 16px); /* Adjust width to fit inside table cells */
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+
+*{
+    text-decoration: none;
+    color: #222B45;
+}
+
+.Navigation__Container {
+    height: 84px;
+    width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFF;
+}
+
+.Logo {
+    height: 84px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.Logo__name {
+    font-size: 40px;
+    position: relative;
+}
+
+.Logo_Image {
+    position: absolute;
+    top: 30px;
+    left: 864px;
+}
+
+.navigation {
+    height: 84px;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.navigation a {
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #222B45;
+    margin-left: 50px;
+}
+
+.navigation a:hover {
+    font-weight: 600;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
